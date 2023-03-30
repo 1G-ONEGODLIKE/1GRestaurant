@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu-item {
+    width: 353px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 22px;
+  }
+
+  #search-input {
+    margin-left: 5px;
+    width: 635px;
+  }
+
+  #search-button {
+    margin-left: -82px;
+    border-radius: 20px;
+    z-index: -999;
+  }
+
+  .dropdown-menu {
+    width: 742px;
+    height: 270px;
+    margin-left: -2px;
+  }
+
+  .navbar {
+    margin-bottom: -675px;
+    width: 0%;
+    height: 75px;
+    z-index: 999;
+  }
+}
