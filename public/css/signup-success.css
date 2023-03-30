@@ -1,0 +1,106 @@
+#card {
+  position: relative;
+  width: 700px;
+  display: block;
+  margin: 230px auto;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#upper-side {
+  padding: 2em;
+  background-color: #009933;
+  display: block;
+  color: #fff;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+#checkmark {
+  font-weight: bold;
+  fill: #fff;
+  margin: -1.5em auto auto 20px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  margin-top: -50px;
+}
+
+#status {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-top: -0.2em;
+  margin-bottom: 10px;
+}
+
+#lower-side {
+  padding: 2em 2em 5em 2em;
+  background: #f4f6f9;
+  display: block;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#message {
+  margin-top: -0.5em;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+#contBtn {
+  font-weight: bold;
+  position: relative;
+  top: 1.5em;
+  text-decoration: none;
+  background: #009933;
+  color: #fff;
+  margin: auto;
+  padding: 0.8em 3em;
+  -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  border-radius: 25px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#contBtn:hover {
+  -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#contBtn2 {
+  font-weight: bold;
+  position: relative;
+  top: 1.5em;
+  text-decoration: none;
+  background: #009933;
+  color: #fff;
+  margin: auto;
+  padding: 0.8em 3em;
+  -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  border-radius: 25px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#contBtn2:hover {
+  -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
