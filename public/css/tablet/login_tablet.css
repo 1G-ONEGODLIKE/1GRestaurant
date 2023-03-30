@@ -1,0 +1,55 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .logo {
+    max-width: 250px;
+    margin-top: 70px;
+    margin-left: -17px;
+    margin-bottom: 30px;
+  }
+
+  .font-32 {
+    font-size: 40px;
+    width: 420px;
+    margin-left: -95px;
+  }
+
+  .font-18 {
+    font-size: 20px;
+    width: 360px;
+    margin-left: -68px;
+  }
+
+  .form-group input {
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    margin-left: -60px;
+    width: 340px;
+  }
+
+  .btn-success {
+    padding: 10px 15px;
+    margin-left: -60px;
+    width: 340px;
+    font-size: 22px;
+  }
+
+  .mt-5 {
+    margin-top: 3rem;
+  }
+
+  .mt-15 {
+    margin-top: 8rem;
+  }
+
+  .acc {
+    margin-top: 390px;
+    width: 600px;
+    margin-left: -135px;
+    font-size: 24px;
+  }
+
+  .sign {
+    margin-left: -105px;
+    font-size: 24px;
+  }
+}
