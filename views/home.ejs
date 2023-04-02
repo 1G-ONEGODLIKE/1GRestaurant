@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <!-- CSS & Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/home.css"/>
+    <link rel="stylesheet" href="/css/mobile/home_mobile.css"/>
+    <link rel="stylesheet" href="/css/tablet/home_tablet.css"/>
+    <link rel="stylesheet" href="/css/navbar.css"/>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <%- include ('partials/navbar') %>
+    <!-- Header -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">
+          <div class="header d-flex justify-content-between align-items-center">
+            <a href="login"><img src="/images/ui/backbutton.png" id="back-button"></a>
+            <h1 class="mb-0 ml-4 bold">Customer Orders</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Search Bar & Dropdown Menu -->
+    <%- include ('partials/searchbar') %>
+    <!-- Menu Items -->
+    <div class="d-flex flex-wrap mt-3 ml-2">
+      <div>
+        <div class="menu-item card category-selector item1" data-categories="all queue">
+          <img src="/images/menu/padthai.jpg" class="card-img-top"/>
+          <div class="card-body">
+            <h3 class="card-title text-center">Order ID: #123</h3>
+            <p class="card-text text-center">Pad Thai</p>
+            <span class="status d-flex justify-content-center">In Queue</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="menu-item card category-selector item2" data-categories="all queue">
+          <img src="/images/menu/somtum.jpg" class="card-img-top"/>
+          <div class="card-body">
+            <h3 class="card-title text-center">Order ID: #456</h3>
+            <p class="card-text text-center">Somtum</p>
+            <span class="status d-flex justify-content-center">In Queue</span>
+          </div>
+        </div>
+      </div>
+      <div class="menu-item card category-selector item3" data-categories="all queue">
+        <img src="/images/menu/padkrapow.jpg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #753</h3>
+          <p class="card-text text-center">Pad Krapow (Pork)</p>
+          <span class="status d-flex justify-content-center">In Queue</span>
+        </div>
+      </div>
+      <div class="menu-item card category-selector" data-categories="all queue">
+        <img src="/images/menu/omelette.jpg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #231</h3>
+          <p class="card-text text-center">Omelette</p>
+          <span class="status d-flex justify-content-center">In Queue</span>
+        </div>
+      </div>
+      <div class="menu-item card category-selector" data-categories="all queue">
+        <img src="/images/menu/beefnoodles.jpg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #420</h3>
+          <p class="card-text text-center">Beef Noodles</p>
+          <span class="status d-flex justify-content-center">In Queue</span>
+        </div>
+      </div>
+      <div class="menu-item card category-selector" data-categories="all queue">
+        <img src="/images/menu/pizza.jpg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #111</h3>
+          <p class="card-text text-center">Pizza</p>
+          <span class="status d-flex justify-content-center">In Queue</span>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-wrap mt-3 ml-2">
+      <div>
+        <div class="menu-item card category-selector" data-categories="all cooking">
+          <img src="/images/menu/friedchicken.jpg" class="card-img-top"/>
+          <div class="card-body">
+            <h3 class="card-title text-center">Order ID: #924</h3>
+            <p class="card-text text-center">Fried Chickens</p>
+            <span class="status d-flex justify-content-center">Cooking</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="menu-item card category-selector" data-categories="all cooking">
+          <img src="/images/menu/strawberrycake.jpg" class="card-img-top"/>
+          <div class="card-body">
+            <h3 class="card-title text-center">Order ID: #666</h3>
+            <p class="card-text text-center">Strawberry Cake</p>
+            <span class="status d-flex justify-content-center">Cooking</span>
+          </div>
+        </div>
+      </div>
+      <div class="menu-item card category-selector" data-categories="all cooking">
+        <img src="/images/menu/browniecake.jpeg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #290</h3>
+          <p class="card-text text-center">Brownie Cake</p>
+          <span class="status d-flex justify-content-center">Cooking</span>
+        </div>
+      </div>
+      <div class="menu-item card category-selector" data-categories="all delivery">
+        <img src="/images/menu/mangostickyrice.jpg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #898</h3>
+          <p class="card-text text-center">Mango Sticky Rice</p>
+          <span class="status d-flex justify-content-center">On Delivery</span>
+        </div>
+      </div>
+      <div class="menu-item card category-selector" data-categories="all delivery">
+        <img src="/images/menu/milkbuttertoast.jpg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #764</h3>
+          <p class="card-text text-center">Milk Butter Toast</p>
+          <span class="status d-flex justify-content-center">On Delivery</span>
+        </div>
+      </div>
+      <div class="menu-item card category-selector" data-categories="all delivery">
+        <img src="/images/menu/americanfriedrice.jpg" class="card-img-top"/>
+        <div class="card-body">
+          <h3 class="card-title text-center">Order ID: #810</h3>
+          <p class="card-text text-center">American Fried Rice</p>
+          <span class="status d-flex justify-content-center">On Delivery</span>
+        </div>
+      </div>
+    </div>
+    <div id="popup-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="popup-content"></div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="/js/dropdown.js"></script>
+    <script src="/js/backbutton.js"></script>
+    <script src="/js/logout.js"></script>
+    <script src="/js/category-selector.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/status.js"></script>
+    <script src="/js/delivery.js"></script>
+  </body>
+</html>

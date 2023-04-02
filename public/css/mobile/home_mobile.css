@@ -1,0 +1,53 @@
+@media only screen and (max-width: 480px) {
+  .menu-item {
+    margin-bottom: 20px;
+    margin-left: 24px;
+  }
+
+  #search-input {
+    margin-left: 15px;
+    width: 190px;
+  }
+
+  #search-button {
+    margin-left: -82px;
+    border-radius: 20px;
+    z-index: -999;
+  }
+
+  #dropdownMenuButton {
+    margin-left: 17px;
+  }
+
+  .dropdown-menu {
+    margin-left: -3px;
+  }
+
+  .navbar {
+    margin-bottom: -3380px;
+    width: 0%;
+    height: 75px;
+  }
+
+  .link-item {
+    margin-left: -35px;
+  }
+
+  .navbar img {
+    height: 15px;
+    width: 15px;
+    font-size: 20px;
+  }
+
+  .profile-link {
+    margin-right: -300px;
+  }
+
+  .cart-link {
+    margin-right: 8px;
+  }
+
+  .message-link {
+    margin-left: -43px;
+  }
+}

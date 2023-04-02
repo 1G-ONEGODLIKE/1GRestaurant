@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 3px;
+  padding: 10px;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px 5px 0 0;
+  z-index: fixed;
+  position: absolute;
+  bottom: 0px;
+  background: #f2f2f2;
+  width: 100%;
+  padding: 0 10px;
+  right: 0px;
+}
+
+.link-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50px;
+  width: 141%;
+  padding: 25px;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.link-item.active {
+  transform: translateY(-10px);
+}
+
+.link-item:hover {
+  background-color: #f43f5e1a;
+  border-radius: 25px;
+}
+
+.link-text {
+  font-weight: bold;
+}
+
+.link-icon {
+  font-size: 20px;
+  color: #999;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navbar img {
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+}
+
+.section-home, .section-shop, .section-wallet, .section-user {
+  height: 95vh;
+  background-color: #ddd;
+  position: relative;
+}
+
+.shop, .wallet, .user {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+}
